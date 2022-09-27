@@ -1,0 +1,30 @@
+@import './utils';
+
+.search{
+  position: relative;
+  &__lbl {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: rem(20px);
+    top: rem(16px);
+    font-size: rem(16px);
+    background: rgb(0, 30, 60);
+    transition: all 400ms;
+    padding: rem(2px) rem(6px);
+  }
+
+  &:hover, &.focus {
+    .search__lbl {
+      font-size: rem(8px);
+      top: rem(6px);
+    }
+  }
+
+  &__input {
+    padding: rem(9px);
+    border-radius: rem(4px);
+    border: rem(1px) solid rgba(255, 255, 255, 0.23);
+    background: rgb(0, 30, 60);
+    margin: rem(10px);
+  }
+}

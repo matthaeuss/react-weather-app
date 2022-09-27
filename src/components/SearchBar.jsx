@@ -1,10 +1,10 @@
 import Autocomplete from "./Autocomplete";
 import Search from "./Search";
 
-function SearchBar(props) {
+function SearchBar({searchValue, setSearchValue}) {
     return (
         <>
-            <Search/>
+            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
             <Autocomplete/>
         </>
     );
