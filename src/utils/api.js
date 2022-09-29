@@ -6,7 +6,7 @@ export async function getWeatherFromApi(city){
     const config = {
         key: API_KEY,
         q: city,
-        days: 10,
+        days: 7,
         aqi: "no",
         alerts: "no"
     }

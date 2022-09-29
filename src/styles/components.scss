@@ -28,4 +28,40 @@
     margin: rem(10px);
     color: rgba(255, 255, 255, 0.9);
   }
+
+  &__btn {
+    background-color: #727a9e;
+    border: none;
+    color: black;
+    padding: 10px 11.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: rem(8px);
+    cursor: pointer;
+  }
+}
+
+.weather-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 #555;
+  background: #727a9e;
+  font-family: monospace;
+  margin-bottom: rem(20px);
+
+  &__details {
+   color: black;
+   font-family: monospace;
+  }
+}
+
+.chart {
+  width: 100%;
+
 }
