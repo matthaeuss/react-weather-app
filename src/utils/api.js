@@ -12,6 +12,9 @@ export async function getWeatherFromApi(city){
     }
 
     const response = await fetch(`${BASE_URL}?${new URLSearchParams(config)}`)
+        .catch((error) => {
+            console.log(error)
+        })
     return response.json();
 }
 
