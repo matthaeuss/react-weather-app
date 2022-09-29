@@ -24,11 +24,5 @@ Type a city name in the search bar and press 'search' button to let yourself be 
 ## License
 
 
-/*
-* ----------------------------------------------------------------------------
-* "THE BEER-WARE LICENSE" (Revision 42):
-* github.com/matthaeuss wrote this file.  As long as you retain this notice you
-* can do whatever you want with this stuff. If we meet some day, and you think
-* this stuff is worth it, you can buy me a beer in return.   Mateusz Przybylski
-* ----------------------------------------------------------------------------
-*/
+Copyright © 2022 [Mateusz Przybylski](https://github.com/matthaeuss ).<br/>
+This project is [Beerware](https://github.com/matthaeuss/react-weather-app/blob/master/LICENSE) licensed.
